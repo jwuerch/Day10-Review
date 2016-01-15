@@ -153,7 +153,9 @@ $(document).ready(function() {
       $("#text9").hide();
       $(this).hide();
       $("#text10").show();
-      $("#hingegamebutton").show();
+      $("#hingegamebutton").show().click(function() {
+        $("#well5").show();
+      });
     });
 
 

@@ -213,7 +213,3 @@ h4 {
 @media screen and (min-width:1277px) {
   #well4 {min-height:500px;}
 }
-
-@media screen and (min-width:760px) {
-  #row2 {position:relative;top:160px;}
-}
