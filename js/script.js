@@ -29,10 +29,10 @@ $(document).ready(function() {
           $("#button14").show().fadeOut(1500).click(function(){
             $("#button13").hide();
             $("#danger1").show().hide(2500);
-            $("#danger2").show().hide(4000);
             $("#danger3").show().hide(2500);
             $("#danger4").show().hide(2500);
             $("#danger5").show().hide(2500);
+            $("#danger2").show().hide(4000);
           });
         });
       });
