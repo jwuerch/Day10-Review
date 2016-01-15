@@ -12,6 +12,10 @@
 
 
 $(document).ready(function() {
+  $("#restartbtn").click(function() {
+    location.reload();
+  });
+
   $("#target1").click(function() {
     $("#text1").hide();
     $("#text2").show();
@@ -21,18 +25,18 @@ $(document).ready(function() {
       $("#text2").hide();
       $("#text3").show();
       $("#row2").show();
-      $("#target1-2").html("Yes We Can!");
-      $(this).attr("id","target1-3")
+      $("#target1-2").attr("id","target1-3")
 
       /* Later Insert Loop Function */
-      $("#target1-3").click(function() {
+      $("#target2").click(function() {
         $("#text3").hide();
         $("#text4").show();
         $("#target2").appendTo("#right-well")
-        $(this).html("We Can Do More.")
-        $(this).attr("id","target1-4")
-        $("#target1-4").click(function() {
+        $("#target1-3").html("We Can Do More.")
+        $().attr("id","target1-3")
+        $("#target1-3").click(function() {
           $("#text4").hide();
+          $("#text3").hide();
           $("#text5").show();
           $("#left-well").addClass("adjust");
           $("#right-well").addClass("adjust");
@@ -57,6 +61,7 @@ $(document).ready(function() {
       $("#target6").clone().appendTo("#right-well");
       $("#text6").hide();
       $("#text7").show();
+      $(this).html("Vacation Game")
       $(this).click(function() {
         $("#left-well").hide();
         $("#right-well").hide();
@@ -68,12 +73,27 @@ $(document).ready(function() {
     });
   });
 
-  // $("#gamebtn").click(function) {
-  //   var age = $("#age").val();
-  //   var select1 = $("#select1").val();
-  //   var select2 = $("#select2").val();
-  //
-  //   if (age >= 25 && )
-  // }
+  $("#gamebtn").click(function(event) {
+    var age = $("#age").val();
+    var select1 = $("#select1").val();
+    var select2 = $("#select2").val();
+    var select3 = $("#select3").val();
+    var select4 = $("#select4").val();
+    $("#row8").show();
+
+    if (age === "") {
+        alert("You didn't enter an age.\n\nNow you have to go back to start as punishment!");
+        location.reload();
+    } else if (select1 === "aliens") {
+        $("#imgwrap1").show();
+    } else if (select1 === "cars") {
+        $("#imgwrap2").show();
+    } else if (select1 === "hotGirls") {
+        $("#imgwrap3").show();
+    };
+
+    event.preventDefault();
+  });
+
 
 });
