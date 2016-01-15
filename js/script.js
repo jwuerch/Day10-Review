@@ -32,7 +32,17 @@ $(document).ready(function() {
             $("#danger3").show().hide(2500);
             $("#danger4").show().hide(2500);
             $("#danger5").show().hide(2500);
-            $("#danger2").show().hide(4000);
+            $("#danger2").show().hide(4000).click(function() {
+              var answer = prompt("How do spell 'hippopotamus?'\n HURRY! YOU HAVE 7 SECONDS.\n
+              Just kidding. You have lots of time.");
+              if (answer === "hippopotamus") {
+                alert("Congratulations! You win! :)")
+                location.reload();
+              } else {
+                alert("You fail. :(");
+                location.reload();
+              }
+            });
           });
         });
       });
