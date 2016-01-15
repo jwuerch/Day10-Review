@@ -31,8 +31,8 @@ $(document).ready(function() {
             $("#danger1").show().hide(2500);
             $("#danger3").show().hide(2500);
             $("#danger4").show().hide(2500);
-            $("#danger5").show().hide(2500);
-            $("#danger2").show().hide(4000).click(function() {
+            $("#danger5").show().hide(3000);
+            $("#danger2").show().hide(3000).click(function() {
               var answer = prompt("How do spell 'hippopotamus?'\n HURRY! YOU HAVE 7 SECONDS.\n Just kidding, you have plenty of time.");
               if (answer === "hippopotamus") {
                 alert("Congratulations! You win! :) \n When you click on OK the page will refresh.");
