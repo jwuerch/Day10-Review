@@ -102,6 +102,14 @@ $(document).ready(function() {
     $("#text9").show();
     $("#text8").hide();
 
+    $(".realgamebtn").click(function() {
+      $("#well2").hide();
+      $("#well3").hide();
+      $("#well4").hide();
+      $("#text9").hide();
+      $(this).hide();
+    });
+
     event.preventDefault();
   });
 
