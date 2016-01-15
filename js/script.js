@@ -98,6 +98,11 @@ $(document).ready(function() {
         $("#answer3").show();
     };
 
+    $("#realgamebtn1").show();
+    $("#realgamebtn2").show();
+    $("#text9").show();
+    $("#text8").hide();
+
     event.preventDefault();
   });
 
