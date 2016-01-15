@@ -20,12 +20,78 @@ h2, h3, h4, h5, h6 {
 
 #text2, #text3, #row2, #text4, #text5, #target5, #text6, #target6,
 #target7, #target8, #text7, #text8, #row3, #row4, #row5, #row6, #row7, #row8, #answer1, #answer2, #answer3,
-.realgamebtn, #text9, #text10, /** Uncomment after this for game 2 **/ #well6, #well7, #well8, .arrows {
+.realgamebtn, #text9, #text10, #button12, #button13, #button14,
+#danger1, #danger2, #danger3, #danger4, #danger5, /** Uncomment after this for game 2 **/ #well6, #well7, #well8, .arrows {
   display:none;
 }
 
 #smallDemonImg {
   max-width:400px;
+}
+
+#well5 {
+  background:white;
+  height:700px;
+}
+
+.clickmenow1 {
+  margin-top:300px;
+  margin-right:-10px;
+}
+
+.clickmenow2 {
+  margin-top:00px;
+  margin-right:-400px;
+}
+
+.clickmenow3 {
+  margin-top:500px;
+  margin-right:-5000px;
+}
+
+.clickmenow4 {
+  margin-top:0px;
+  margin-right:-20px;
+}
+
+.clickmenow5 {
+  margin-top:400px;
+  margin-right:-20px;
+}
+
+.clickmenow6 {
+  margin-top:0px;
+  margin-right:-150px;
+}
+
+.clickmenow7 {
+  margin-top:-1200px;
+  margin-left:-216px;
+  position:relative;
+  left:-100px;
+}
+
+.clickmenow8 {
+  margin-top:-300px;
+  left:-200px;
+  margin-top:-300px;
+}
+
+.clickmenow9 {
+  margin-top:-100px;
+}
+
+.clickmenow10 {
+  margin-top:-500px;
+
+}
+
+.clickmenow11 {
+  margin-top:-300px;
+  margin-right:-300px;
+  position:relative;
+  top:-300px;
+
 }
 
 .afterbounce {

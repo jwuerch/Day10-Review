@@ -12,6 +12,35 @@
 
 
 $(document).ready(function() {
+
+  /** Hinge Game Button Start **/
+
+  $("#clickmebutton").click(function() {
+    $(this).attr("id","clickme1");
+    $("#clickme1").addClass("animated hinge clickmenow1")
+    $("#clickme1").click(function() {
+      $(this).attr("id","clickme2");
+      $(this).removeClass("animated hinge clickmenow1").addClass("animated bounce clickmenow2").hide(3000);
+      $("#clickme2").click(function() {
+        $(this).removeClass("animated bounce clickmenow2 clickmenow1");
+        $("#button12").css("margin-top","600px").show().addClass("animated hinge");
+        $("#button12").click(function() {
+          $("#button13").removeClass("animated bounce hinge").show();
+          $("#button14").show().fadeOut(1500).click(function(){
+            $("#button13").hide();
+            $("#danger1").show().hide(2500);
+            $("#danger2").show().hide(4000);
+            $("#danger3").show().hide(2500);
+            $("#danger4").show().hide(2500);
+            $("#danger5").show().hide(2500);
+          });
+        });
+      });
+    });
+  });
+
+
+
   $("#restartbtn").click(function() {
     $(this).css("color","red");
     $(this).addClass("animated hinge").html("HELP!").addClass("afterbounce");
@@ -106,6 +135,8 @@ $(document).ready(function() {
     $("#text9").show();
     $("#text8").hide();
 
+    /** Dungeon Button Game Start **/
+
     $(".realgamebtn").click(function() {
       $("#well2").hide();
       $("#well3").hide();
@@ -113,10 +144,9 @@ $(document).ready(function() {
       $("#text9").hide();
       $(this).hide();
       $("#text10").show();
-      $("#well5").show();
-      $("well6").show();
-      $("well7").show();
+      $("#hingegamebutton").show();
     });
+
 
     event.preventDefault();
   });
