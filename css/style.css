@@ -20,8 +20,13 @@ h2, h3, h4, h5, h6 {
 
 #text2, #text3, #row2, #text4, #text5, #target5, #text6, #target6,
 #target7, #target8, #text7, #text8, #row3, #row4, #row5, #row6, #row7, #row8, #answer1, #answer2, #answer3,
-.realgamebtn, #text9, #well5, #text10 {
+.realgamebtn, #text9, #text10 {
   display:none;
+}
+
+h3 {
+  margin-top:-5px;
+  text-decoration:underline;
 }
 
 h2 {

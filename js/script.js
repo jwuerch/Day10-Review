@@ -88,14 +88,14 @@ $(document).ready(function() {
         alert("You didn't enter an age.\n\nNow you have to go back to start as punishment!");
         location.reload();
     } else if (select1 === "aliens") {
-        $("#answer1").show();
+        $("#answer1").fadeIn("slow");
         $("#img1").show();
     } else if (select1 === "cars") {
-        $("#answer2").show();
+        $("#answer2").fadeIn("slow");
         $("#img2").show();
     } else if (select1 === "hotGirls") {
-        $("#img3").show();
-        $("#answer3").show();
+        $("#img3").show();;
+        $("#answer3").fadeIn("slow");
     };
 
     $(".realgamebtn").show();
@@ -110,6 +110,8 @@ $(document).ready(function() {
       $(this).hide();
       $("#text10").show();
       $("#well5").show();
+      $("well6").show();
+      $("well7").show();
     });
 
     event.preventDefault();
