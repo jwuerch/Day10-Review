@@ -33,13 +33,12 @@ $(document).ready(function() {
             $("#danger4").show().hide(2500);
             $("#danger5").show().hide(2500);
             $("#danger2").show().hide(4000).click(function() {
-              var answer = prompt("How do spell 'hippopotamus?'\n HURRY! YOU HAVE 7 SECONDS.\n
-              Just kidding. You have lots of time.");
+              var answer = prompt("How do spell 'hippopotamus?'\n HURRY! YOU HAVE 7 SECONDS.\n Just kidding, you have plenty of time.");
               if (answer === "hippopotamus") {
-                alert("Congratulations! You win! :)")
+                alert("Congratulations! You win! :) \n When you click on OK the page will refresh.")
                 location.reload();
               } else {
-                alert("You fail. :(");
+                alert("You fail. :( When you click on OK the page will refresh.");
                 location.reload();
               }
             });
