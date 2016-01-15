@@ -80,16 +80,19 @@ $(document).ready(function() {
     var select3 = $("#select3").val();
     var select4 = $("#select4").val();
     $("#row8").show();
+    $("#img1").hide();
+    $("#img2").hide();
+    $("#img3").hide();
 
     if (age === "") {
         alert("You didn't enter an age.\n\nNow you have to go back to start as punishment!");
         location.reload();
     } else if (select1 === "aliens") {
-        $("#imgwrap1").show();
+        $("#img1").show();
     } else if (select1 === "cars") {
-        $("#imgwrap2").show();
+        $("#img2").show();
     } else if (select1 === "hotGirls") {
-        $("#imgwrap3").show();
+        $("#img3").show();
     };
 
     event.preventDefault();
