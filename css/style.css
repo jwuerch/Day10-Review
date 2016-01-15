@@ -21,7 +21,7 @@ h2, h3, h4, h5, h6 {
 #text2, #text3, #text4, #text5, #target5, #text6, #target6,
 #target7, #target8, #text7, #text8, #row3, #row4, #row5, #row6, #row7, #row8, #answer1, #answer2, #answer3,
 .realgamebtn, #text9, #text10, #button12, #button13, #button14,
-#danger1, #danger2, #danger3, #danger4, #danger5, #well5, #hingegamebutton, /** Uncomment after this for game 2 **/ #well6, #well7, #well8, .arrows {
+#danger1, #danger2, #danger3, #danger4, #danger5, #well5, #hingegamebutton, /** Uncomment after this for game 2 **/ #well6, #row2,#well7, #well8, #well20, .arrows {
   display:none;
 }
 
@@ -214,4 +214,6 @@ h4 {
   #well4 {min-height:500px;}
 }
 
+@media screen and (min-width:760px) {
+  #row2 {position:relative;top:160px;}
 }
