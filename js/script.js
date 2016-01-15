@@ -35,7 +35,7 @@ $(document).ready(function() {
             $("#danger2").show().hide(4000).click(function() {
               var answer = prompt("How do spell 'hippopotamus?'\n HURRY! YOU HAVE 7 SECONDS.\n Just kidding, you have plenty of time.");
               if (answer === "hippopotamus") {
-                alert("Congratulations! You win! :) \n When you click on OK the page will refresh.")
+                alert("Congratulations! You win! :) \n When you click on OK the page will refresh.");
                 location.reload();
               } else {
                 alert("You fail. :( When you click on OK the page will refresh.");
@@ -151,7 +151,7 @@ $(document).ready(function() {
       $("#well3").hide();
       $("#well4").hide();
       $("#text9").hide();
-      $(this).hide();
+      $("#realgamebtn").hide();
       $("#text10").show();
       $("#hingegamebutton").show().click(function() {
         $("#well5").show();
