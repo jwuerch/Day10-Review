@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   margin-bottom:10px;
 }
 
@@ -16,4 +16,31 @@ h2, h3, h4, h5, h6 {
   text-decoration:underline;
   position:relative;
   top:-15px;
+}*/
+
+#text2, #text3, #row2, #text4, #text5, #target5, #text6, #target6,
+#target7, #target8, #text7, #row3, #row4, #row5, #row6, #row7 {
+  display:none;
+
+}
+
+h4 {
+  display:block;
+  width:100%;
+}
+
+.adjust {
+  height:200px;
+}
+
+.newbuttonstyle {
+  background-color: red;
+}
+
+label {
+  margin-top:10px;
+}
+
+#gamebtn {
+  margin-top:10px;
 }

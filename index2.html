@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My jQuery Playground</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <!-- Row1 -->
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="well">
+            <h2 class="text-primary text-pull-left">Welcome To My jQuery Playground!</h2>
+          </div>
+        </div>
+      </div><!-- End Row1 -->
+
+      <!-- Row2 -->
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="well">
+            <h5 class="text-default" id="text1">I went off the beaten path from the normal syllabus to practice jQuery and also demonstrate my knowledge on the subject. Click the button below to begin and enjoy!</h5>
+
+            <h5 class="text-default" id="text2">We've already implemented a bit of jQuery here... can you guess what it is? Not to worry, we'll get more into that later. But here's a hint: I'm <span class="text-success"><em><strong>not<strong></em></span> using multiple buttons to change the button text.</h5>
+
+            <h5 class="text-default" id="text3">Now let's get started. It looks like column 2 is missing a friend. Let's help by moving button 2 from column 1 to column 2. Click on the button!</h5>
+
+            <h5 class="text-default" id="text4">Great! The button moved over... but is that what we really want?!?! Let's style it up a bit.</h5>
+
+            <h5 class="text-default" id="text5">Good! Now the two wells are of equal length.</h5>
+
+            <h5 class="text-default" id="text6">This time we don't want to just move the button over, but we want to clone it (and I will admit I made a new button to help organize my code a little better).</h5>
+
+
+
+            <h5 class="text-default" id="text7">Voila! Now let's play a little game. Which celebrity are you likely to date? Select answers based on your personality in the form below and we'll show you.</h5>
+
+            <button type="submit" class="btn btn-primary" id="target1">Let's Begin!</button>
+            <button type="submit" class="btn btn-primary" id="target5">Fire With Fire</button>
+
+
+
+        </div>
+      </div>
+      </div><!-- End Row2 -->
+
+      <div class="row" id="row2">
+        <div class="col-sm-2">
+          <div class="well" id="left-well">
+            <h4 class="block">Well 1</h4>
+            <button class="btn btn-default" id="target2">Button2</button>
+            <button class="btn btn-default" id="target6">Button2</button>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="well" id="right-well">
+            <h4 class="block">Well 2</h4>
+            <button class="btn btn-default" id="target3">Button3</button>
+            <button class="btn btn-default" id="target4">Button4</button>
+            <button class="btn btn-default" id="target7">Button3</button>
+            <button class="btn btn-default" id="target8">Button4</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="row3">
+        <div class="col-sm-6">
+          <div class="well" id="well3">
+            <form>
+              <div class="form-group">
+                <label>What's Your Age?</label>
+                  <input type="text" class="form-control" id="age" placeholder="Enter Age" required>
+                <label>Which Do You Like Most?</label>
+                <select class="form-control" id="select1">
+                  <option value="aliens">Aliens</option>
+                  <option value="cars">Cars</option>
+                  <option value="hot-girls">Hot Girls</option>
+                </select>
+                <label>Cats Or Dogs?</label>
+                <select class="form-control" id="select2">
+                  <option value="cats">Cats</option>
+                  <option value="dogs">Dogs</option>
+                </select>
+                <button class="btn btn-default" type="submit" id="gamebtn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Scripts -->
+
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
