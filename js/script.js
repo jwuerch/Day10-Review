@@ -88,11 +88,14 @@ $(document).ready(function() {
         alert("You didn't enter an age.\n\nNow you have to go back to start as punishment!");
         location.reload();
     } else if (select1 === "aliens") {
+        $("#answer1").show();
         $("#img1").show();
     } else if (select1 === "cars") {
+        $("#answer2").show();
         $("#img2").show();
     } else if (select1 === "hotGirls") {
         $("#img3").show();
+        $("#answer3").show();
     };
 
     event.preventDefault();
