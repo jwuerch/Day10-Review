@@ -13,11 +13,11 @@
 
 $(document).ready(function() {
   $("#restartbtn").click(function() {
-    $(this).css("color","green");
-    $(this).addClass("animated bounce delay").html("Wait for the bounce!").addClass("afterbounce");
+    $(this).css("color","red");
+    $(this).addClass("animated hinge").html("HELP!").addClass("afterbounce");
     setTimeout(function() {
       location.reload();
-    },1500)
+    },2000)
   });
 
   $("#target1").click(function() {
