@@ -60,7 +60,8 @@ $(document).ready(function() {
       $(this).click(function() {
         $("#left-well").hide();
         $("#right-well").hide();
-        $("#text7").show();
+        $("#text7").hide();
+        $("#text8").show();
         $(this).hide();
         $("#row3").show();
       });
