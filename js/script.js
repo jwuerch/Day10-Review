@@ -80,9 +80,9 @@ $(document).ready(function() {
     var select3 = $("#select3").val();
     var select4 = $("#select4").val();
     $("#row8").show();
-    $("#img1").hide();
-    $("#img2").hide();
-    $("#img3").hide();
+    $("#answer1").hide();
+    $("#answer2").hide();
+    $("#answer3").hide();
 
     if (age === "") {
         alert("You didn't enter an age.\n\nNow you have to go back to start as punishment!");
