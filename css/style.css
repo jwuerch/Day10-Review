@@ -125,3 +125,7 @@ h4 {
 @media screen and (min-width:1500px) {
   #well4 {min-height:415px;}
 }
+
+@media screen and (min-width:1277px) {
+  #well4 {min-height:500px;}
+}
