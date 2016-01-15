@@ -13,7 +13,11 @@
 
 $(document).ready(function() {
   $("#restartbtn").click(function() {
-    location.reload();
+    $(this).css("color","green");
+    $(this).addClass("animated bounce delay").html("Wait for the bounce!").addClass("afterbounce");
+    setTimeout(function() {
+      location.reload();
+    },1500)
   });
 
   $("#target1").click(function() {
@@ -116,6 +120,8 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+
 
 
 });
