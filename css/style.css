@@ -35,6 +35,37 @@ h2 {
 .realgamebtn {
   margin-top:5px;
 }
+
+.col-sm-12 {
+  text-align:center;
+}
+
+#left, #right {
+  padding:10px;
+}
+
+#up, #down {
+  padding-left:13px;
+  padding-right:13px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#up {
+  margin-bottom:3px;
+}
+
+#down {
+  margin-top:3px;
+}
+
+#left {
+  margin-right:20px;
+}
+
+#right {
+  margin-left:20px;
+}
 .answer{
   margin-left:10px;
   font-size:15px;
