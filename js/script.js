@@ -103,13 +103,13 @@ $(document).ready(function() {
     $("#text8").hide();
 
     $(".realgamebtn").click(function() {
-      $("#well1").hide();
       $("#well2").hide();
       $("#well3").hide();
       $("#well4").hide();
       $("#text9").hide();
       $(this).hide();
       $("#text10").show();
+      $("#well5").show();
     });
 
     event.preventDefault();
