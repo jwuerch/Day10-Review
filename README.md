@@ -1,4 +1,5 @@
 # jQuery Playground
+Last updated on January 15, 2016.
 
 ## Description
 
