@@ -1,17 +1,18 @@
-# Readme File
-
-## About The Author
-
-The author is Jason Wuerch. He is currently located in Portland, Oregon as an up-and-coming programmer.
-
-## Program Name
-
-This project was made at Epicodus Coding School and is the final project of week 2.
+# jQuery Playground
 
 ## Description
 
-This project tests the limits of my knowledge of Bootstrap, CSS, HTML and jQuery.
+Browse through my knowledge of jQuery by clicking on the buttons in this tutorial and taking the dream vacation quiz. At the end of the tutorial play the jQuery game by trying to click on the button before it disappears.
+
+## Technologies Used
+
+Bootstrap, CSS, HTML, jQuery
+
+## Installation Instructions
+
+* Clone this repository.
+* Open 'index.html.'
 
 ## Copyright and License Information
 
-This project is copyrighted. Please ask for permission to use.
+This project is copyrighted by Jason Wuerch. Please ask permission to use.
